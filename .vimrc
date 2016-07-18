@@ -15,6 +15,3 @@ set number
 
 " Enable syntax highlighting
 syntax on
-
-" Run flake8 check on save
-autocmd BufWritePost *.py call Flake8()
