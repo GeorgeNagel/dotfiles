@@ -15,17 +15,3 @@ set number
 
 " Enable syntax highlighting
 syntax on
-
-" Run flake8 check on save
-autocmd BufWritePost *.py call Flake8()
-
-" Manage tab to space conversion (see https://wiki.python.org/moin/Vim and
-" http://usevim.com/2012/06/06/filetype/)
-autocmd FileType python set tabstop=8
-autocmd FileType python set expandtab
-autocmd FileType python set softtabstop=4
-autocmd FileType python set shiftwidth=4
-
-" Autoindent (useful for Python files)
-filetype indent plugin on
-
