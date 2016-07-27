@@ -25,6 +25,12 @@ Install Vundle plugins defined in .vimrc
 vim +PluginInstall +qall
 ```
 
+Install ctags
+
+```
+brew install ctags
+```
+
 ## Install .tmux.conf
 
 Copy the conf file to your home directory
@@ -56,4 +62,10 @@ ctrl-a + ]
 ctrl-a, ctrl-c
 (outide tmux)
 cmd-v
+```
+
+## Install .zshrc
+
+```
+cp .zshrc ~/.zshrc
 ```
