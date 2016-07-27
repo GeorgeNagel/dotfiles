@@ -25,3 +25,35 @@ Install Vundle plugins defined in .vimrc
 vim +PluginInstall +qall
 ```
 
+## Install .tmux.conf
+
+Copy the conf file to your home directory
+
+```
+cp .tmux.conf ~/.tmux.conf
+```
+
+Install reattach-to-user-namespace
+
+```
+brew install reattach-to-user-namespace
+```
+
+Now, you can copy-paste to and from a tmux window:
+
+```
+ctrl-a + [ -> start copy mode
+# use arrow keys to navigate to selection
+<space> -> start selection
+# use arrow keys to navigate to end of selection
+<enter> -> end selection
+
+# To paste into another tmux window
+ctrl-a + ]
+
+# To paste outside of tmux
+(inside tmux)
+ctrl-a, ctrl-c
+(outide tmux)
+cmd-v
+```
