@@ -16,3 +16,7 @@ set number
 
 " Enable syntax highlighting
 syntax on
+
+" Always show filename in status bar
+set laststatus=2
+set statusline=%f
