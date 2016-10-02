@@ -1,5 +1,5 @@
 " Run flake8 check on save
-autocmd BufWritePost call Flake8()
+autocmd BufWritePost *.py call Flake8()
 
 " Tabs to 4 spaces
 setlocal tabstop=4
