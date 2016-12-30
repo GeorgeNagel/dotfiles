@@ -7,6 +7,7 @@ call vundle#begin()
 Plugin 'VundleVim/Vundle.vim'
 Plugin 'git@github.com:nvie/vim-flake8.git'
 Plugin 'https://github.com/ctrlpvim/ctrlp.vim'
+Plugin 'fatih/vim-go'
 
 call vundle#end()
 filetype plugin indent on
